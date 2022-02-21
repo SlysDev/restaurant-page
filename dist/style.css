@@ -38,9 +38,9 @@ button {
 }
 
 button:hover {
+    font-size: larger;
     opacity: 0.6;
     transition: 0.5s ease;
-    padding: 1.2rem 2.4rem;
 }
 
 #content {
@@ -79,4 +79,13 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 2rem;
+}
+
+.logo img {
+    transition: .5s ease;
+}
+
+.logo img:hover { 
+    width: 64px;
+    transition: .5s ease;
 }
